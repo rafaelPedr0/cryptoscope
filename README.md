@@ -18,7 +18,7 @@ Investidores e analistas precisam monitorar tendências de mercado cripto de for
 
 ##  Demo ao Vivo
 
-🔗 **[Acesse o Dashboard →](https://cryptoscope-builmndfbujvfebbxjhzgc.streamlit.app)**
+ **[Acesse o Dashboard →](https://cryptoscope-builmndfbujvfebbxjhzgc.streamlit.app)**
 
 ---
 
@@ -47,7 +47,7 @@ Investidores e analistas precisam monitorar tendências de mercado cripto de for
 
 ---
 
-## 📁 Estrutura do Repositório
+##  Estrutura do Repositório
 
 ```
 cryptoscope/
@@ -77,7 +77,7 @@ cryptoscope/
 
 ---
 
-## ⚙️ Como Rodar Localmente
+##  Como Rodar Localmente
 
 ### 1. Clone o repositório
 ```bash
@@ -105,7 +105,7 @@ Acesse em: `http://localhost:8501`
 
 ---
 
-## 📊 Funcionalidades do Dashboard
+##  Funcionalidades do Dashboard
 
 - **Visão Geral de Mercado**: Top 50 criptos por capitalização com variação 24h
 - **KPIs em tempo real**: quantidade em alta, variação média, volume total e ativos voláteis
@@ -119,21 +119,21 @@ Acesse em: `http://localhost:8501`
 
 ##  Diferenciais Técnicos
 
-### ✅ Pipeline ETL Completo
+###  Pipeline ETL Completo
 O script `etl_pipeline.py` realiza extração, transformação e carregamento de dados reais, simulando um cenário profissional de Engenharia de Dados.
 
-### ✅ Feature Engineering com Pandas
+###  Feature Engineering com Pandas
 Criação de colunas derivadas: `momentum` (classificação de tendência), `volume_to_mktcap_ratio`, médias móveis com `.rolling()` e categorização com `pd.cut()`.
 
-### ✅ Caching Inteligente
+###  Caching Inteligente
 Usando `@st.cache_data(ttl=900)` para evitar chamadas desnecessárias à API, melhorando performance e respeitando o rate limit gratuito.
 
-### ✅ Tratamento de Erros Real
+###  Tratamento de Erros Real
 Tratamento de `429 Too Many Requests` da API com `try/except`, garantindo que o pipeline continue mesmo quando um ativo falha.
 
 ---
 
-## 📈 Resultados
+##  Resultados
 
 - Processamento de **50 criptomoedas** por ciclo de ETL
 - Histórico de **90 dias** de preços das top 5 criptos
@@ -142,7 +142,7 @@ Tratamento de `429 Too Many Requests` da API com `try/except`, garantindo que o 
 
 ---
 
-## 👤 Autor
+##  Autor
 
 **Rafael Feio** — Estudante de Ciência da Computação
 📍 Santo André, São Paulo
