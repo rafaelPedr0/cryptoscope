@@ -10,19 +10,19 @@
 
 ---
 
-## 🎯 O Problema de Negócio
+##  O Problema de Negócio
 
 Investidores e analistas precisam monitorar tendências de mercado cripto de forma ágil, mas ferramentas existentes são pagas ou não permitem customização. Este projeto resolve isso construindo um **pipeline ETL completo + dashboard interativo** com dados 100% reais.
 
 ---
 
-## 🚀 Demo ao Vivo
+##  Demo ao Vivo
 
 🔗 **[Acesse o Dashboard →](https://cryptoscope-builmndfbujvfebbxjhzgc.streamlit.app)**
 
 ---
 
-## 🏗️ Arquitetura do Projeto (End-to-End)
+##  Arquitetura do Projeto (End-to-End)
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -66,7 +66,7 @@ cryptoscope/
 
 ---
 
-## 🛠️ Stack Técnica
+## Stack Técnica
 
 | Camada | Tecnologia | Por quê? |
 |--------|-----------|---------|
@@ -117,7 +117,7 @@ Acesse em: `http://localhost:8501`
 
 ---
 
-## 🧠 Diferenciais Técnicos
+##  Diferenciais Técnicos
 
 ### ✅ Pipeline ETL Completo
 O script `etl_pipeline.py` realiza extração, transformação e carregamento de dados reais, simulando um cenário profissional de Engenharia de Dados.
